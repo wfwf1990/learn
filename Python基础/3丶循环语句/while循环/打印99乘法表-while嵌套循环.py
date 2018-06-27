@@ -8,3 +8,5 @@ while col <= 9:
         line += 1
     print("")
     col += 1
+
+
