@@ -80,6 +80,21 @@ g_a = 100
 def test():
     a = 100 
 '''
+#（8）列表和字典当做全局变量：不用再函数里面事先申明global，可以在函数里面直接修改
+'''
+nums = [11,22,33]
+infos = {"name":"tom"}
+#定义函数修改全局变量列表和字典
+def test1():
+    nums.append(44)
+    infos["age"] = 12
+#定义函数获取全局变量列表的值和全局变量字典
+def test2():
+    print(nums)
+    print(infos)
+test1()
+test2()
+'''
 
 
 
