@@ -1,5 +1,5 @@
 
-path1 = r'C:\Users\admin.龙港的阿飞-PC\Desktop\1\sql\20180628'
+path1 = r'C:\Users\admin.龙港的阿飞-PC\Desktop\1\sql\20180702'
 path2 = r'C:\Users\admin.龙港的阿飞-PC\Desktop\1\sql\sql'
 import time
 import os
