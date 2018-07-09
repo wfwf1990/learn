@@ -23,8 +23,8 @@ with open(path,"r",encoding="utf-8") as f1:
                 break
 
 '''
-path = r'C:\Users\admin.龙港的阿飞-PC\Desktop\1\sql\20180628\tbl_mail_order.sql'
-path1 = r'C:\Users\admin.龙港的阿飞-PC\Desktop\1\sql\20180628\tbl_mail_order1.sql'
+path = r'C:\Users\admin.龙港的阿飞-PC\Desktop\1\sql\20170709\tbl_mail_order.sql'
+path1 = r'C:\Users\admin.龙港的阿飞-PC\Desktop\1\sql\20170709\tbl_mail_order1.sql'
 import time
 with open(path,"r",encoding="utf-8") as f1:
     while True:
