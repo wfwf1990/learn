@@ -7,7 +7,7 @@ def main():
     tcp_server_socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 
     #绑定ip和port
-    server_ip = "192.9.191.204"
+    server_ip = ""
     server_port = 8080
     tcp_server_socket.bind((server_ip,server_port))
 
