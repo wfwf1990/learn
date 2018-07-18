@@ -51,3 +51,4 @@ gevent.joinall([
         gevent.spawn(coroutine_work, "work1"),
         gevent.spawn(coroutine_work, "work2")
 ])
+
