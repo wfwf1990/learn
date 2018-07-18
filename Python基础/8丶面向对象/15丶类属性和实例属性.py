@@ -79,7 +79,7 @@ class People(object):
 
 p = People()
 print(p.getCountry())       #通过实例对象获取类属性
-print(People.getCountry())  #通过类对象获取类属性
+print(People.getCountry())  #通过类对象的类方法获取类属性
 
 #p.setCountry("Japen")       #可以通过这个类创建出来的对象去调用这个类的方法
 People.setCountry("Japen")      #可以通过类的名字调用类方法
